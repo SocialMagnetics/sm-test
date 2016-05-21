@@ -1,0 +1,29 @@
+{
+  "name": "sm-test",
+  "version": "1.0.0",
+  "description": "Tool for testing Social Magnetics services",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --es_staging --harmony_proxies index.js",
+    "debug-attach": "node --es_staging --harmony_proxies --debug-brk index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SocialMagnetics/sm-test.git"
+  },
+  "keywords": [
+    "Social",
+    "Magnetics",
+    "Service",
+    "Test"
+  ],
+  "author": "connect@socialmagnetics.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SocialMagnetics/sm-test/issues"
+  },
+  "homepage": "https://github.com/SocialMagnetics/sm-test#readme",
+  "dependencies": {
+    "co": "4.6.0"
+  }
+}
